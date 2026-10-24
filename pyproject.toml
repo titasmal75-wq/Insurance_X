@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vehicle-insurance-project"
+version = "0.0.1"
+description = "An MLOps project for productionizing models"
+authors = [
+    {name = "Titas Mal", email = "titas.mal75@gmail.com"}
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
